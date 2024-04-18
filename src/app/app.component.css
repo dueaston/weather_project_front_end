@@ -1,0 +1,79 @@
+/* Apply styles to all input elements */
+
+body {
+  background-color: #0f7186;
+}
+
+h1 {
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
+}
+
+.credentials {
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
+  height: auto; /* Set the container height to the full viewport height */
+}
+
+.create-account-btn{
+  width: 10%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
+  height: auto; /* Set the container height to the full viewport height */
+}
+
+input {
+  width: 20%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Apply specific styles to the submit button */
+button[type="submit"] {
+  width: auto;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
+  height: auto; /* Set the container height to the full viewport height */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center; /* Align items vertically at the center */
+  height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.buttons-container {
+  text-align: center; /* Align text and inline elements center horizontally */
+}
+
+
+
+.login-input {
+  /* Add input styles here */
+}
+
+.login-btn {
+  /* Add submit button styles here */
+}
+
+
