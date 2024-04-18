@@ -27,6 +27,12 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
-  }
+    "strictTemplates": true,
+    "target": "es2018",
+    "module": "esnext",
+    "strict": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src/**/*.ts"
+]
 }

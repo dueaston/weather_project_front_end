@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { AppComponent } from './app.component';
-import { CreateAccountComponent } from './create-account.component'; // Import the component
+import { AppComponent } from './routes/app.component';
+import { CreateAccountComponent } from './create-account.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     CreateAccountComponent
   ],
   imports: [
@@ -15,5 +16,4 @@ import { CreateAccountComponent } from './create-account.component'; // Import t
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppComponent {
-  title = 'temp-project'}
+export class AppModule { }
